@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: ESM 206/244
+email:ahorst@ucsb.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: @allison_horst
+github_username: allisonhorst
 
 # Build settings
 markdown: kramdown
