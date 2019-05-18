@@ -1,5 +1,5 @@
 # Site settings
-title: ESM 206/244
+title: ESM 206 / ESM 244
 email: ahorst@ucsb.edu
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
