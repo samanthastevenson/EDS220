@@ -10,7 +10,7 @@ body {
 
 hr {
     border-color: $theme-primary;
-    border-width: 3px;
+    border-width: 4px;
     max-width: 50px;
 }
 
@@ -44,6 +44,10 @@ p {
 
 .bg-primary {
     background-color: #363f57; //<!--$theme-primary;--> this changes section bg
+}
+
+.bg-lightgray {
+    background-color: #eaecee;
 }
 
 .bg-dark {
