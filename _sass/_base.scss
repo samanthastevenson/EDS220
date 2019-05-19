@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: gray; //COOL, changes table link colors!
+    color: gray; //changes link colors throughout
     &:hover,
     &:focus {
-        color: #c47ab5; //testing change color here too...?
+        color: #c47ab5; //changes color when hovering over links
     }
 }
 
@@ -38,7 +38,7 @@ h6 {
 
 p {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 2; // Changes line separation throughout in paragraph text
     margin-bottom: 20px;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 section {
-    padding: 25px 0; //original 100px
+    padding: 0px 0; //reduced spacing around section titles/text (original 100px)
 }
 
 aside {
@@ -81,7 +81,7 @@ aside {
     .navbar-header .navbar-brand {
         color: dimgray;//$theme-primary
         @include sans-serif-font;
-        font-weight: 700;
+        font-weight: 600;
         text-transform: uppercase;
         &:hover,
         &:focus {
@@ -94,7 +94,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 16px;
+                font-size: 14px;
                 color: gray;//$theme-dark
                 &:hover {
                     color: gray;//$theme-primary
@@ -137,14 +137,14 @@ aside {
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color:  #212f3c;//darken($theme-primary, 10%) Color hover!
+                    color: #383b70;//what navbar links darken to when hovering
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: gray; // $theme-dark
+                color: gray; // navbar links regular cover
                 &:hover {
-                    color:  #212f3c; //$theme-primary
+                    color:  #383b70; // navbar links hover color
                 }
             }
         }
@@ -160,6 +160,7 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
+    //background-size: auto 400px; this can change image size (but tiles if smaller)
     text-align: center;
     color: white;
     .header-content {
@@ -169,7 +170,7 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
+                font-weight: 650;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
@@ -189,7 +190,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 50%; //changes position of text in header (vertical position)
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -199,7 +200,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 16px;//was 18px
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -321,7 +322,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: #212f3c; //changed icon color to gray
+    color: #494b7a; //change contact icon colors here
     font-size: 4em;
 }
 
