@@ -286,7 +286,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    color: gray;
 }
 
 .no-gutter > [class*='col-'] {
@@ -317,7 +317,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: gray;
+    color: gray; //changed icon colorto gray
     font-size: 4em;
 }
 
