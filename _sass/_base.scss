@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include sans-serif-font;
+    @include sans-serif-font; //YES this worked!
 }
 
 hr {
@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: black;
+    color: black; //COOL
     &:hover,
     &:focus {
         color: gray; //testing change color here too...?
@@ -43,7 +43,7 @@ p {
 }
 
 .bg-primary {
-    background-color: dimgray; //<!--$theme-primary;-->
+    background-color: #415380; //<!--$theme-primary;--> this changes section bg
 }
 
 .bg-dark {
