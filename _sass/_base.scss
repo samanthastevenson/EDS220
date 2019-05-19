@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: dimgray; //COOL
+    color: gray; //COOL, changes table link colors!
     &:hover,
     &:focus {
-        color: gray; //testing change color here too...?
+        color: #c47ab5; //testing change color here too...?
     }
 }
 
@@ -290,7 +290,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: gray;
+    color: white;
 }
 
 .no-gutter > [class*='col-'] {
