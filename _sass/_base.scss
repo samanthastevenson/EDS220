@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: black; //COOL
+    color: dimgray; //COOL
     &:hover,
     &:focus {
         color: gray; //testing change color here too...?
@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -56,7 +56,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 25px 0; //original 100px
 }
 
 aside {
@@ -75,13 +75,13 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: dimgray;//$theme-primary
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: gray; //darken($theme-primary, 10%)
         }
     }
     .nav {
@@ -91,15 +91,15 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 16px;
-                color: $theme-dark;
+                color: gray;//$theme-dark
                 &:hover {
-                    color: $theme-primary;
+                    color: gray;//$theme-primary
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-primary !important;
+                    color: gray;//$theme-primary !important
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -129,18 +129,18 @@ aside {
             background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: gray;//$theme-primary
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color:  #212f3c;//darken($theme-primary, 10%) Color hover!
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: gray; // $theme-dark
                 &:hover {
-                    color: $theme-primary;
+                    color:  #212f3c; //$theme-primary
                 }
             }
         }
@@ -152,7 +152,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: auto; //auto
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -161,7 +161,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 50px 15px 50px;//100px 15px 100px
         width: 100%;
         .header-content-inner {
             h1 {
@@ -181,7 +181,7 @@ header {
             }
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 500px) { //768px
         min-height: 100%;
         .header-content {
             position: absolute;
@@ -317,7 +317,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: gray; //changed icon colorto gray
+    color: #212f3c; //changed icon color to gray
     font-size: 4em;
 }
 
