@@ -23,7 +23,7 @@ a {
     color: gray; //changes link colors throughout
     &:hover,
     &:focus {
-        color: #c47ab5; //changes color when hovering over links
+        color: #d87f31; //changes color when hovering over links
     }
 }
 
@@ -189,7 +189,7 @@ header {
         }
     }
     @media (min-width: 500px) { //768px
-        min-height: 60%; //changed the image size! to make smaller
+        min-height: 60%; //CHANGE HEADER IMAGE SIZE HERE! (made smaller vertically)
         .header-content {
             position: absolute;
             top: 65%; //changes position of text in header (vertical position)
