@@ -34,12 +34,14 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5; // Changes line separation throughout in paragraph text
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px; //update left indent here!
 }
 
 .bg-primary {
@@ -60,11 +62,11 @@ p {
 }
 
 section {
-    padding: 0px 0; //reduced spacing around section titles/text (original 100px)
+    padding: 10px 10px; //reduced spacing around section titles/text (original 100px)
 }
 
 aside {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .no-padding {
@@ -173,7 +175,7 @@ header {
                 font-weight: 650;
                 text-transform: uppercase;
                 margin-top: 0;
-                margin-bottom: 0;
+                margin-bottom: 20; //increased space below header
             }
             hr {
                 margin: 30px auto;
@@ -187,10 +189,10 @@ header {
         }
     }
     @media (min-width: 500px) { //768px
-        min-height: 100%;
+        min-height: 60%; //changed the image size! to make smaller
         .header-content {
             position: absolute;
-            top: 50%; //changes position of text in header (vertical position)
+            top: 65%; //changes position of text in header (vertical position)
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
