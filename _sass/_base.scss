@@ -20,7 +20,7 @@ hr.light {
 
 a {
     @include transition-all;
-    color: gray; //changes link colors throughout
+    color:  #76749e; //changes link colors throughout
     &:hover,
     &:focus {
         color: #d87f31; //changes color when hovering over links
