@@ -11,7 +11,7 @@ body {
 hr {
     border-color: $theme-primary;
     border-width: 0px;//was 4px
-    max-width: 50px;
+    max-width: 0px;//was 50px...not sure what this changes? Maybe just if adding borders...
 }
 
 hr.light {
@@ -34,13 +34,14 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5; // Changes line separation throughout in paragraph text
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 50px; //update left indent here!
 }
 
@@ -62,7 +63,7 @@ p {
 }
 
 section {
-    padding: 10px 10px; //reduced spacing around section titles/text (original 100px)
+    padding: 20px 0px; //reduced spacing around section titles/text (original 100px)
 }
 
 aside {
