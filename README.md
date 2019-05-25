@@ -1,3 +1,11 @@
+Allison's working website for ESM 206/ESM 244 (stats & data analysis courses at the Bren School of Environmental Science and Management, UCSB). 
+
+Disclaimer: a constant work in progress.
+
+
+
+This website was made with: 
+
 # Creative Theme for Jekyll
 
 A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
