@@ -1,6 +1,6 @@
-Allison's working website for ESM 206/ESM 244 (stats & data analysis courses at the Bren School of Environmental Science and Management, UCSB). 
+Sam's website for EDS 220: Remote Sensing and Environmental Data at the Bren School of Environmental Science & Management at UC Santa Barbara.
 
-Disclaimer: a constant work in progress.
+Thanks to Allison Horst for the website inspiration - forked from her ESM 206/244 pages!
 
 
 
