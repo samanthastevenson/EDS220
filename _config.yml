@@ -10,3 +10,4 @@ github_username: allisonhorst
 
 # Build settings
 markdown: kramdown
+encoding: UTF-8
